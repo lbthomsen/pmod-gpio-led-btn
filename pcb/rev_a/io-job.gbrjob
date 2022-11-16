@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.9+dfsg-1"
     },
-    "CreationDate": "2022-11-16T11:07:50+08:00"
+    "CreationDate": "2022-11-16T11:41:46+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "io",
       "GUID": "696f2e6b-6963-4616-945f-706362585858",
-      "Revision": "rev?"
+      "Revision": "a"
     },
     "Size": {
       "X": 48.995,
