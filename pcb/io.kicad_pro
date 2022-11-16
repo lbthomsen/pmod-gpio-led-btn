@@ -39,8 +39,8 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.7999999999999999,
+        "silk_text_size_v": 0.7999999999999999,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -48,8 +48,27 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|182245000|75820000|27322c7a-b997-474e-882f-e2ffc1221ed5|66e4f7e2-1134-45a4-8e55-ff472d5ed59a",
+        "silk_over_copper|182245000|76580000|27322c7a-b997-474e-882f-e2ffc1221ed5|5c71c473-2a95-4373-8b64-ae838ed87798",
+        "silk_over_copper|182245000|78360000|27322c7a-b997-474e-882f-e2ffc1221ed5|11780328-dd59-4065-b7a5-2c802a66d31a",
+        "silk_over_copper|182245000|79120000|27322c7a-b997-474e-882f-e2ffc1221ed5|86de8dba-6534-4c69-b17b-fb448bdbeba9",
+        "silk_over_copper|182245000|80900000|27322c7a-b997-474e-882f-e2ffc1221ed5|1860ce83-8bae-4872-8750-ed55097114b4",
+        "silk_over_copper|182245000|81660000|27322c7a-b997-474e-882f-e2ffc1221ed5|f192dda6-0988-4e02-b7d6-55fd5ce51dda",
+        "silk_over_copper|182245000|83440000|27322c7a-b997-474e-882f-e2ffc1221ed5|d0c82311-8531-42da-a52a-473b91583749",
+        "silk_over_copper|182245000|84200000|27322c7a-b997-474e-882f-e2ffc1221ed5|8b5911b5-dea9-4e80-98f9-252b2548faca",
+        "silk_over_copper|182245000|85980000|27322c7a-b997-474e-882f-e2ffc1221ed5|42218e36-bf34-45e0-99aa-5d3909da551a",
+        "silk_over_copper|182245000|86740000|27322c7a-b997-474e-882f-e2ffc1221ed5|883f5027-e539-46c8-ace6-8effd22b2e71",
+        "silk_over_copper|182245000|88520000|27322c7a-b997-474e-882f-e2ffc1221ed5|18602efd-f7fb-47af-9389-f88c2e3c758f",
+        "silk_over_copper|182245000|89280000|27322c7a-b997-474e-882f-e2ffc1221ed5|b9343d29-c889-4df2-a95d-fb82b9aac171"
+      ],
       "meta": {
         "version": 2
       },
@@ -97,7 +116,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15239999999999998,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -112,8 +131,19 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2286,
+        0.3048,
+        0.381,
+        0.4572
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -319,7 +349,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -340,7 +370,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -350,9 +380,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1524,
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
         "wire_width": 6.0
       }
     ],
@@ -446,39 +476,12 @@
     [
       "af0604cb-7138-4bff-b163-b83721233d1b",
       "LED0_7"
-    ],
-    [
-      "9801ad41-a485-4205-bd14-06c456ebf1bf",
-      "LED1_0"
-    ],
-    [
-      "5770b4d4-6ce6-46b2-9dde-0c408c461bc3",
-      "LED1_1"
-    ],
-    [
-      "67564213-1f06-4eee-b41c-2a36ab2c48ca",
-      "LED1_2"
-    ],
-    [
-      "e4810629-54ec-4697-a197-751473245da9",
-      "LED1_3"
-    ],
-    [
-      "1de4492a-eae0-4e4d-9c76-fe58e28da18b",
-      "LED1_4"
-    ],
-    [
-      "155efa17-8e58-40da-8564-44fc373a2098",
-      "LED1_5"
-    ],
-    [
-      "6132d5d7-b4ee-4e6e-9858-bbc2e7964a8a",
-      "LED1_6"
-    ],
-    [
-      "f8b3fc3d-2fe9-4c8e-a44c-06aa0fd21590",
-      "LED1_7"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Lars Boegild Thomsen",
+    "AUTHOR_EMAIL": "lbthomsen@gmail.com",
+    "REVISION": "a",
+    "TITLE": "IO Button and Led"
+  }
 }
