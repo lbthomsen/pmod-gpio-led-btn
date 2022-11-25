@@ -481,7 +481,7 @@
   "text_variables": {
     "AUTHOR": "Lars Boegild Thomsen",
     "AUTHOR_EMAIL": "lbthomsen@gmail.com",
-    "REVISION": "a",
+    "REVISION": "b",
     "TITLE": "IO Button and Led"
   }
 }
